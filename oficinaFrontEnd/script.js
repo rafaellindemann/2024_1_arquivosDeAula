@@ -4,7 +4,7 @@ function converterParaReal(){
     let dolar = document.getElementById('entradaDolar').value
     let real = dolar * 4.97
 
-    document.getElementById('saidaReal').innerHTML = 'R$' + real
+    document.getElementById('saidaReal').innerHTML = 'R$' + real.toFixed(2)
 }
 function converterParaDolar(){
     // alert("Depois eu converto, agora estou ocupado")
