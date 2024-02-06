@@ -8,11 +8,15 @@
 </head>
 <body>
     <h1>Conversor de Moedas</h1>
-    <p>Valor do Dolar hoje: R$4.99</p>
-    <!-- <div>Valor em dolar: <input type="text"></div> -->
-    Valor em dolar: <input type="text">
-    <button onclick="converterParaReal()">Converter para Real</button>
-    <img src="img/dolar.avif" alt="">
+    <div id="dolarParaReal">
+        <h2>Dolar para Real</h2>
+        <p>Valor do Dolar hoje: R$4.97</p>
+        <!-- <div>Valor em dolar: <input type="text"></div> -->
+        Valor em dolar: <input type="text" id="entradaDolar">
+        <button onclick="converterParaReal()">Converter para Real</button>
+        <div id="saidaReal"></div>
+        <img src="img/dolar.avif" alt="">
+    </div>
 
     <script src="script.js"></script>
 </body>
