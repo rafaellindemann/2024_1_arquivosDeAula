@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    height: 20%;
+    width: 20%;
+}
