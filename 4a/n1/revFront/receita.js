@@ -1,0 +1,7 @@
+
+
+receita = {
+    nome: '',
+    ingredientes:[],
+    modoPreparo: ''
+}
