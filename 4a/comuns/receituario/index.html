@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRUD de Receitas Culinárias</title>
+<style>
+    body {
+        background-color: #222;
+        color: orange;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid orange;
+        border-radius: 5px;
+        background-color: #333;
+        color: orange;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: orange;
+        color: #222;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>CRUD de Receitas Culinárias</h1>
+
+    <!-- Menu Superior -->
+    <div>
+        <button onclick="mostrarCadastro()">Cadastrar</button>
+        <button onclick="mostrarPesquisa()">Pesquisar</button>
+    </div>
+
+    <!-- Formulário de Cadastro -->
+    <div id="cadastro" style="display: none;">
+        <h2>Cadastrar Receita</h2>
+        <label for="nome">Nome da Receita:</label>
+        <input type="text" id="nome" name="nome">
+        <label for="modoPreparo">Modo de Preparo:</label>
+        <textarea id="modoPreparo" name="modoPreparo"></textarea>
+        <div id="ingredientes">
+            <h3>Ingredientes:</h3>
+            <div>
+                <input type="text" class="ingrediente" placeholder="Nome do Ingrediente">
+                <input type="number" class="ingrediente" placeholder="Quantidade">
+                <input type="text" class="ingrediente" placeholder="Unidade">
+                <button onclick="adicionarIngrediente()">+</button>
+            </div>
+        </div>
+        <button onclick="cadastrarReceita()">Cadastrar Receita</button>
+    </div>
+
+    <!-- Formulário de Pesquisa -->
+    <div id="pesquisa" style="display: none;">
+        <h2>Pesquisar Receitas</h2>
+        <!-- Aqui você pode adicionar os campos de pesquisa -->
+    </div>
+</div>
+
+<script>
+    function mostrarCadastro() {
+        document.getElementById("cadastro").style.display = "block";
+        document.getElementById("pesquisa").style.display = "none";
+    }
+
+    function mostrarPesquisa() {
+        document.getElementById("cadastro").style.display = "none";
+        document.getElementById("pesquisa").style.display = "block";
+    }
+
+    function adicionarIngrediente() {
+        const divIngredientes = document.getElementById("ingredientes");
+        const divNovoIngrediente = document.createElement("div");
+        divNovoIngrediente.innerHTML = `
+            <input type="text" class="ingrediente" placeholder="Nome do Ingrediente">
+            <input type="number" class="ingrediente" placeholder="Quantidade">
+            <input type="text" class="ingrediente" placeholder="Unidade">
+            <button onclick="adicionarIngrediente()">+</button>
+        `;
+        divIngredientes.appendChild(divNovoIngrediente);
+    }
+
+    function cadastrarReceita() {
+        // Aqui você pode adicionar a lógica para enviar os dados do formulário para o servidor
+        alert("Receita cadastrada com sucesso!");
+    }
+</script>
+
+</body>
+</html>
