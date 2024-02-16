@@ -106,3 +106,9 @@ function deletarReceita(nomeReceita) {
     // Aqui você pode adicionar a lógica para deletar a receita com o nome especificado
     alert(`Deletando a receita: ${nomeReceita}`);
 }
+
+document.getElementById('aga2').addEventListener('click', testar)
+
+function testar(){
+    alert('deu')
+}
