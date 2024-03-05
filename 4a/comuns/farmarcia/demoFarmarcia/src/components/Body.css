@@ -1,0 +1,7 @@
+.body{ 
+    background-color: #fff; 
+    min-height: calc(100vh - 100px); 
+    padding: 20px; 
+    width: 100%; 
+    box-sizing: border-box
+}
