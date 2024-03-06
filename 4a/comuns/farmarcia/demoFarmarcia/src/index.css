@@ -1,5 +1,13 @@
 *{
-  color: red;
+  /* color: red; */
+  color: #ce1f3a;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  /* font-family: Arial, sans-serif; Exemplo de definição de fonte global */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 /* :root {

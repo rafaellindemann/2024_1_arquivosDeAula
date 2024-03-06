@@ -1,7 +1,23 @@
 .header{
     height: 100px; 
-    background-color: #ef97a4; 
-    text-align: 'center';
+    /* background-color: #ef97a4;  */
+    background-color: #e6e6e6; 
     display: flex;
-    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
 }
+
+
+.logoHeader {
+    /* margin-right: 10px; */
+    position: absolute;
+} 
+
+  
+  h1 {
+    width: 100%;
+    margin: 0; /* Remove as margens padrão do h1 */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    /* color: #fff; */
+  }

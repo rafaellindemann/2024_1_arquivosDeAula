@@ -1,7 +1,11 @@
 .body{ 
     background-color: #fff; 
-    min-height: calc(100vh - 100px); 
+    min-height: calc(95vh - 100px); 
     padding: 20px; 
     width: 100%; 
-    box-sizing: border-box
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }

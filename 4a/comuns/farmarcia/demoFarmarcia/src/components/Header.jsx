@@ -1,19 +1,11 @@
-// function Header() {
-//     return(
-//         <h1>Farmárcia</h1>
-//     )
-    
-// }
-
-// export default Header
-// Header.js
 
 import './Header.css'
 
-const Header = () => {
+function Header(){
   return (
     <div className="header">
-      <h1>Farmárcia</h1>
+      <img src="./images/farmarcia-logo-pq.PNG" alt="" className='logoHeader'/>
+      <h1>FARMÁRCIA</h1>
     </div>
   );
 }

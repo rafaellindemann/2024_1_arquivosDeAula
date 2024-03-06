@@ -1,11 +1,17 @@
-// Body.js
 import './Body.css'
-const Body = () => {
+import Data from './Data';
+function Body(){
   return (
-    // <div style={{ backgroundColor: 'lightgrey', minHeight: 'calc(100vh - 100px)', padding: '20px',  }}>
     <div className="body">
-      <h2>Body</h2>
-      <p>Este é o conteúdo do corpo da página.</p>
+      <h2>Bem vindo à Farmárcia</h2>
+      <p>Conheça um pouco da nossa nova marca!</p>
+      <img src="./images/farmarcia-placa.PNG" alt="" />
+      <h2>Grande sorteio de camisetas</h2>
+      <img src="./images/farmarcia-camiseta.PNG" alt="" />
+      <p>Para participar do sorteio divulgue nossa data de inauguração nas suas redes sociais e marque o @farmarcia</p>
+      <p>Quanto mais marcações em mais redes, mais chances. Pode botar no insta, no face, no x, pode botar até no koo...</p>
+      <Data dia={15} mes='Março' ano={2024}/>
+
     </div>
   );
 }
