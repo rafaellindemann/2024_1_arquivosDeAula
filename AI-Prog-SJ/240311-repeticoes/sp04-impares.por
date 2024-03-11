@@ -1,21 +1,21 @@
 programa
 {
-	inteiro contador, soma
+	inteiro contador, tabuada, resultado
 	
 	funcao inicio()
 	{
-		soma = 0
+		escreva("Digite um número: ")
+		leia(tabuada)
 		contador = 1
-		enquanto(contador <= 100){
-			soma = soma + contador
-			escreva("\nParcial: " + soma + 
-				" - Contador: " + contador)
+		enquanto(contador <= 10){
+			resultado = tabuada * contador
+			escreva(tabuada + " x " + contador + " = " +
+			resultado + "\n")
 			contador = contador + 1
-			
 		}
-		escreva("\nSoma total: " + soma)
 	}
 }
+
 
 
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 179; 
+ * @POSICAO-CURSOR = 201; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
