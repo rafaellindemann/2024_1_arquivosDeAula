@@ -4,7 +4,6 @@ function Pessoa(props){
         <>
             <h1>{props.nome}</h1>
             <h2>{props.idade}</h2>
-        
         </>
     )
   
