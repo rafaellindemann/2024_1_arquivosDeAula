@@ -1,0 +1,17 @@
+h2{
+    color:#000
+}
+
+.divPessoa{
+    border: 1px solid #2c2c2c;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #aaa;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
