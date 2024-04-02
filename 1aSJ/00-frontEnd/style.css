@@ -1,0 +1,18 @@
+/* seletor{
+    conjunto de propriedades
+} */
+
+img{
+    width: 300px;
+    /* height: 300px; */
+}
+
+body{
+    background-color: #b24141;
+    color: #ffffff;
+}
+
+h1{
+    text-shadow: 3px 2px 5px #000;
+    
+}
