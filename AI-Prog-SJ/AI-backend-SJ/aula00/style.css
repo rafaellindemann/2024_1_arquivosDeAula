@@ -1,0 +1,16 @@
+h1{
+    color: green;
+    background-color: black;
+    height: 100px;
+}
+
+h2{
+    color: blue;
+    background-color: #7b1132;
+}
+
+img{
+    height: 333px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
