@@ -1,10 +1,38 @@
 public class Pessoa {
     private String nome;
+    private int idade;
 
-    public void setNome(String t){
-        this.nome = t;
+//    public Pessoa(String n, int i){
+//        this.nome = n;
+//        this.idade = i;
+//    }
+
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
-    public String getNome(){
-        return this.nome;
+
+    public Pessoa() {
+
+    }
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }
