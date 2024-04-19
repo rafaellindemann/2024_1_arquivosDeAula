@@ -35,4 +35,8 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    public String getInfos(){
+        return "Nome: " + nome + "\nIdade: " + idade;
+    }
 }

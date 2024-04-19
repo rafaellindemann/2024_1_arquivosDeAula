@@ -1,7 +1,8 @@
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class Main {
-    ArrayList<Pessoa> pessoas = new ArrayList<Pessoa>();
+    static ArrayList<Pessoa> pessoas = new ArrayList<Pessoa>();
     public static void main(String[] args) {
 //        Pessoa p;
 //        p = new Pessoa();
@@ -30,6 +31,29 @@ public class Main {
 //        Pessoa soComNome = new Pessoa("Socom");
 //        System.out.println(soComNome.getNome());
 //        System.out.println(soComNome.getIdade());
+
+        for(int i=0; i<3; i++){
+            String nome = JOptionPane.showInputDialog("Nome: ");
+            int idade = Integer.parseInt(
+                    JOptionPane.showInputDialog("Idade: "));
+            Pessoa p = new Pessoa(nome, idade);
+            pessoas.add(p);
+
+        }
+//        for(Pessoa pessoa : pessoas){
+        for(Pessoa daVez : pessoas){
+            System.out.println("Pessoa "+(pessoas.indexOf(daVez)+1));
+
+            System.out.println(daVez.getInfos());
+            System.out.println("=============");
+        }
+
+//        System.out.println(pessoas.get(0).getInfos());
+        //"
+        // Nome: ${nome};
+        // Idade: ${idade}
+        // "
+//        System.out.println(pessoas);
 
     }
 }
