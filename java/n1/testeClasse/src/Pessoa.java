@@ -2,23 +2,23 @@ public class Pessoa {
     private String nome;
     private int idade;
 
-//    public Pessoa(String n, int i){
-//        this.nome = n;
-//        this.idade = i;
-//    }
 
     public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }
 
-    public Pessoa() {
+//    public Pessoa() {
+//
+//    }
 
-    }
-
-    public Pessoa(String nome) {
-        this.nome = nome;
-    }
+//    public Pessoa(String nome) {
+//        this.nome = nome;
+//    }
+//
+//    public Pessoa(int idade) {
+//        this.idade = idade;
+//    }
 
     public String getNome() {
         return nome;
