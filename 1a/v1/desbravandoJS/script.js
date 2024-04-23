@@ -6,7 +6,9 @@ nota2 = Number(prompt("Digite a segunda nota:"))
 
 media = (nota1+nota2)/2
 
-// alert("Média: " + media)
+alert("Média: " + media.toFixed(5) )
+
+
 let texto = "Média: " + media
 
 if(media >= 7){
@@ -19,5 +21,5 @@ if(media >= 7){
 
 alert(texto)
 
-document.write("Média: " + media)
-document.write("<br>Média: " + media)
+// document.write("Média: " + media)
+// document.write("<br>Média: " + media)
