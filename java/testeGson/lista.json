@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Espinossauro",
+    "periodo": "Cretácio Inferior",
+    "peso": 6000,
+    "altura": 9.0
+  },
+  {
+    "nome": "Rex",
+    "periodo": "Cretácio Superior",
+    "peso": 7000,
+    "altura": 7.0
+  },
+  {
+    "nome": "Estegossauro",
+    "periodo": "Jurássico",
+    "peso": 5000,
+    "altura": 4.0
+  }
+]

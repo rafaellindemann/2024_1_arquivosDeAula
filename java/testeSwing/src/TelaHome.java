@@ -10,6 +10,7 @@ public class TelaHome extends JFrame{
     private JButton btEnviar;
     private JTextField txtTelefone;
     private JTextArea txtLista;
+    private JButton btTeste;
 
     public TelaHome() {
     btEnviar.addActionListener(new ActionListener() {
