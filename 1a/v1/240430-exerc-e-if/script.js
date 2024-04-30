@@ -27,8 +27,20 @@ let notas2 = parseInt(valor/2)
 valor = valor - notas2*2
 console.log('2: ' + notas2);
 
-let notas1 = parseInt(valor/1)
-valor = valor - notas1*1
+let notas1 = valor //parseInt(valor/1)
+valor = 0
 console.log('1: ' + notas1);
 
 console.log('Valor que falta: ' + valor);
+let saida = 'Valor: R$' + valor +
+    '\n$$$$$$$$$$$$' + 
+    '\nNotas de R100,00: ' + notas100 + 
+    '\nNotas de R$50,00: ' + notas50 + 
+    '\nNotas de R$20,00: ' + notas20 +
+    '\nNotas de R$10,00: ' + notas10 +
+    '\nNotas de R$5,00: ' + notas5 +
+    '\nNotas de R$2,00: ' + notas2 +
+    '\nNotas de R$1,00: ' + notas1 +
+    '\n$$$$$$$$$$$$' 
+
+alert(saida)
