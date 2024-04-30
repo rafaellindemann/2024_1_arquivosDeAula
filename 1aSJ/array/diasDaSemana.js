@@ -52,5 +52,13 @@ if(i != -1){
     console.log(diasDaSemana);
 }
 
+// concat
+let amigos = ['Alice', 'Bob', 'Charlie']
+let parentes = ['Dave', 'Eva', 'Frank']
+let convidados = amigos.concat(parentes)
+
+console.log("Convidados: ")
+console.log(convidados);
+
 
 
