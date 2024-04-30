@@ -1,6 +1,6 @@
 // 100, 50, 20, 10, 5, 2 e 1
 let valor = Number(prompt("Digite o valor R$ "))
-
+let valorInicial = valor
 // 576
 let notas100 = parseInt(valor/100)
 // 5.76 >> 5
@@ -32,7 +32,7 @@ valor = 0
 console.log('1: ' + notas1);
 
 console.log('Valor que falta: ' + valor);
-let saida = 'Valor: R$' + valor +
+let saida = 'Valor: R$' + valorInicial +
     '\n$$$$$$$$$$$$' + 
     '\nNotas de R100,00: ' + notas100 + 
     '\nNotas de R$50,00: ' + notas50 + 
