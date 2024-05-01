@@ -1,0 +1,22 @@
+h1{
+    color: tomato;
+    background-color: #777777;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+h1:hover{
+    background-color: #fff;
+    border: 2px solid #fff000;
+    /* scale: 1.05; */
+}
+
+img{
+    /* width: 50%; */
+    width: 300px;
+}
+
+body{
+    background-color: #2c2c2c;
+    color: tomato;
+}
