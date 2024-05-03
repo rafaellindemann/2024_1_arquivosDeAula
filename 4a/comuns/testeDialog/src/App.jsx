@@ -15,7 +15,7 @@ function App(){
     <div>
       <button onClick={openDialog}>Abrir diálogo</button>
       {isOpen && (
-        <dialog open onClose={closeDialog}>
+        <dialog open onClose={closeDialog} className='modal'>
           <h1>Este é um diálogo</h1>
           <p>Conteúdo do diálogo...</p>
           <button onClick={closeDialog}>Fechar</button>
