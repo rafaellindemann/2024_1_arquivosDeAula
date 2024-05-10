@@ -4,6 +4,7 @@ import './App.css'
 import Pesquisar from './components/Pesquisar'
 import Editar from './components/Editar'
 import Apagar from './components/Apagar'
+import Receitas from './components/Receitas'
 
 // let receitas = []
 let receitas = [
@@ -46,8 +47,10 @@ function App() {
           <button onClick={() => setMain(<Pesquisar />)}>Pesquisar</button>
           <button onClick={() => setMain(<Editar />)}>Editar</button>
           <button onClick={() => setMain(<Apagar />)}>Apagar</button>
+          <button onClick={() => setMain(<Receitas receitas={receitas}/>)}>Mostrar tudo</button>
       </div>
       {main}
+      
     </div>
   )
 }
