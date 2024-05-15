@@ -4,9 +4,9 @@ import Navbar from "../components/Navbar"
 function Cadastro() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <h1>PÁGINA DE CADASTRO</h1>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
