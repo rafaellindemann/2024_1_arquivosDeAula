@@ -1,6 +1,4 @@
 import { useContext } from "react";
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
 import './Home.css';
 import { UsuariosContext } from "../context/GlobalContext";
 function Home() {
