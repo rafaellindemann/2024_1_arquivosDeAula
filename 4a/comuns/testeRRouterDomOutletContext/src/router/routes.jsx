@@ -8,7 +8,10 @@ const router = createBrowserRouter([
     { 
       path: "/",
       element: <App />,
-      errorElement: <div>Not Found</div>,
+      errorElement: <div className="container404">
+        <img src="404.svg" alt="" className="img404"/>
+        
+      </div>,
       children: [
         {
           path: "/",
