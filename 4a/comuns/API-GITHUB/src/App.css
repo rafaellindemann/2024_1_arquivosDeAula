@@ -1,0 +1,45 @@
+/* Estilos para o corpo da página e o container do perfil */
+body {
+  /* Define a fonte para todo o corpo da página como Arial ou qualquer fonte sans-serif */
+  font-family: Arial, sans-serif;
+}
+
+.profile-container {
+
+  /* Estilos para o container principal que envolve todo o conteúdo do perfil */
+  max-width: 600px; /* Largura máxima do container */
+  margin: 0 auto;   /* Margem automática para centralizar o container horizontalmente */
+  display: block;   /* O container é exibido como bloco */
+  text-align: center; /* O texto dentro do container é centralizado */
+  border-color: black; /* Cor da borda do container */
+  border-style: double; /* Estilo da borda do container (dupla) */
+  border-radius: 25px;  /* Raio da borda do container */
+  background-color: rgb(228, 219, 219); /* Cor de fundo do container */
+}
+
+/* Estilos para a imagem do avatar e informações do perfil */
+img.avatar {
+  /* Estilos para a imagem do avatar */
+  width: 150px;         /* Largura da imagem do avatar */
+  height: 150px;        /* Altura da imagem do avatar */
+  border-radius: 50%;   /* Define um raio de borda para criar uma imagem circular */
+  margin-bottom: 10px;  /* Espaçamento inferior da imagem */
+}
+
+.profile-info {
+  /* Estilos para o container que envolve as informações do perfil */
+  margin-bottom: 20px;  /* Espaçamento inferior para separar do próximo elemento */
+}
+
+.profile-info p {
+  /* Estilos para os parágrafos dentro do container de informações do perfil */
+  margin: 5px;  /* Espaçamento ao redor dos parágrafos */
+}
+
+/* Estilos para o campo de input */
+input {
+  /* Estilos para o campo de input */
+  text-align: center; /* Centraliza o texto dentro do campo de input */
+  width: 270px;       /* Define a largura do campo de input */
+}
+
