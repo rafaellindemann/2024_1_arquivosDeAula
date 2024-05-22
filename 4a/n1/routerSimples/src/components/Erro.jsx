@@ -1,7 +1,8 @@
+import './Erro.css'
 
 function Erro() {
   return (
-    <div>
+    <div className="containerErro">
       {/* <h1>Erro #404</h1> */}
       <img src="erro404.svg" alt="" height={500}/>
 
