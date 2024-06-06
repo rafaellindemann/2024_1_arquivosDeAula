@@ -18,4 +18,11 @@ class Professor extends Pessoa {
     public void setArea(String area) {
         this.area = area;
     }
+
+    @Override
+    public String toString() {
+        return "Professor{" +
+                "area='" + area + '\'' +
+                '}';
+    }
 }

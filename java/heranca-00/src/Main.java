@@ -17,13 +17,27 @@ public class Main {
 
         Pessoa p = new Pessoa("João Pessoa", 111, "1234");
         System.out.println(p.getNome());
-
         pessoas.add(p);
+
+        Fornecedor f = new Fornecedor("Casa do Vidro", 22, "2233", "Vidros");
+        pessoas.add(f);
 
         for(Pessoa pessoa : pessoas){
             System.out.println("============");
-            System.out.println(pessoa.getNome());
+            System.out.println("Nome: "+pessoa.getNome());
+            System.out.println("ID: "+pessoa.getId());
+            System.out.println("Senha: " + pessoa.getSenha());
             System.out.println(pessoa.getClass());
+
+
+            if(pessoa instanceof Professor){
+                Professor prof = (Professor) pessoa;
+                System.out.println("Área de atuação: " + prof.getArea());
+            }else if(pessoa instanceof Aluno a){
+                System.out.println("Curso: " + a.getCurso());
+            }else if (pessoa instanceof Fornecedor fornecedor){
+                System.out.println("Produtos: " + fornecedor.getProdutos());
+            }
         }
 
     }

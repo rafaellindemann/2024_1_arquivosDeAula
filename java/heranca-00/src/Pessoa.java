@@ -38,4 +38,13 @@ class Pessoa {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", id=" + id +
+                ", senha='" + senha + '\'' +
+                '}';
+    }
 }
