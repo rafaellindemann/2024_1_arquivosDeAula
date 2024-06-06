@@ -21,8 +21,7 @@ class Professor extends Pessoa {
 
     @Override
     public String toString() {
-        return "Professor{" +
-                "area='" + area + '\'' +
-                '}';
+        return super.toString().replace("}", "") + // Remove o fechamento da string de Pessoa
+                ", area='" + area + '\'' + '}';
     }
 }

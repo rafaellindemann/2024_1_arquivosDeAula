@@ -22,6 +22,9 @@ public class Main {
         Fornecedor f = new Fornecedor("Casa do Vidro", 22, "2233", "Vidros");
         pessoas.add(f);
 
+        Estagiario est = new Estagiario("Juca", 17,"1001", "DESI",1700.0f);
+        pessoas.add(est);
+
         for(Pessoa pessoa : pessoas){
             System.out.println("============");
             System.out.println("Nome: "+pessoa.getNome());
@@ -33,11 +36,17 @@ public class Main {
             if(pessoa instanceof Professor){
                 Professor prof = (Professor) pessoa;
                 System.out.println("Área de atuação: " + prof.getArea());
-            }else if(pessoa instanceof Aluno a){
+            }else if(pessoa.getClass() == Aluno.class){
+                Aluno a = (Aluno) pessoa;
                 System.out.println("Curso: " + a.getCurso());
             }else if (pessoa instanceof Fornecedor fornecedor){
                 System.out.println("Produtos: " + fornecedor.getProdutos());
+            }else if (pessoa instanceof Estagiario e){
+                System.out.println(e.getBolsa());
             }
+            System.out.println("----------");
+            System.out.println(pessoa.toString());
+            System.out.println("----------");
         }
 
     }
