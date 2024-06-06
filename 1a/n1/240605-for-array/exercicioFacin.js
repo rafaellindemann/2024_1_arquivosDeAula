@@ -31,4 +31,7 @@ frutas.splice(1, 1)
 console.log(frutas)
 
 // spoiler
-frutas.splice(0, frutas.length)
+// frutas.splice(0, frutas.length)
+// frutas.length = 
+// frutas.length -= 1
+frutas.length--
