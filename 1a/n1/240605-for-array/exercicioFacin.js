@@ -21,3 +21,14 @@ let pares = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 pares[2] = 12
 console.log(pares);
 
+// 7
+let frutas = ['banana', 'maçã', 'uva']
+frutas.push('morango')
+
+// 8 - remover o segundo - feito depois das 22h
+console.log(frutas)
+frutas.splice(1, 1)
+console.log(frutas)
+
+// spoiler
+frutas.splice(0, frutas.length)
