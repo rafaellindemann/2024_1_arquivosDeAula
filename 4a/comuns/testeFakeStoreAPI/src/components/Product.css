@@ -1,0 +1,13 @@
+.productImage{
+    width: 300px;
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #00ffff;
+    width: 350px;
+    margin-bottom: 33px;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/v1-240418/a02/a02.iml" filepath="$PROJECT_DIR$/v1-240418/a02/a02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1-240418/a04/a04.iml" filepath="$PROJECT_DIR$/v1-240418/a04/a04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1/a04/a041.iml" filepath="$PROJECT_DIR$/n1/a04/a041.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1-240418/aula01/aula01.iml" filepath="$PROJECT_DIR$/v1-240418/aula01/aula01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/balaio/aula02/aula02.iml" filepath="$PROJECT_DIR$/balaio/aula02/aula02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1/contaSimulator/contaSimulator.iml" filepath="$PROJECT_DIR$/v1/contaSimulator/contaSimulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1/contaSimulator/contaSimulator1.iml" filepath="$PROJECT_DIR$/n1/contaSimulator/contaSimulator1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1/helloFulanoSwing/helloFulanoSwing.iml" filepath="$PROJECT_DIR$/n1/helloFulanoSwing/helloFulanoSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/balaio/helloWorld/helloWorld.iml" filepath="$PROJECT_DIR$/balaio/helloWorld/helloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heranca-00/heranca-00.iml" filepath="$PROJECT_DIR$/heranca-00/heranca-00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1/java02/java02.iml" filepath="$PROJECT_DIR$/v1/java02/java02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1-240418/javaAula00/javaAula00.iml" filepath="$PROJECT_DIR$/v1-240418/javaAula00/javaAula00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1/revClasse/revClasse.iml" filepath="$PROJECT_DIR$/n1/revClasse/revClasse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1-240418/ritoDePassagem01/ritoDePassagem01.iml" filepath="$PROJECT_DIR$/v1-240418/ritoDePassagem01/ritoDePassagem01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rustyTest/rustyTest.iml" filepath="$PROJECT_DIR$/rustyTest/rustyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste-a02/teste-a02.iml" filepath="$PROJECT_DIR$/teste-a02/teste-a02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1/testeClasse/testeClasse.iml" filepath="$PROJECT_DIR$/n1/testeClasse/testeClasse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testeFerrugem/testeFerrugem.iml" filepath="$PROJECT_DIR$/testeFerrugem/testeFerrugem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testeGson/testeGson.iml" filepath="$PROJECT_DIR$/testeGson/testeGson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testeSwing/testeSwing.iml" filepath="$PROJECT_DIR$/testeSwing/testeSwing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v1/testeSwing/testeSwing1.iml" filepath="$PROJECT_DIR$/v1/testeSwing/testeSwing1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testeSwingHome/testeSwingHome.iml" filepath="$PROJECT_DIR$/testeSwingHome/testeSwingHome.iml" />
+    </modules>
+  </component>
+</project>
