@@ -1,0 +1,17 @@
+body{
+    background-color: #c2c2c2;
+}
+
+
+.valorImpar{
+    background-color: aquamarine;
+    /* margin: 5px; */
+}
+.valorPar{
+    background-color: aqua;
+    /* margin: 5px; */
+}
+
+.valorMaior{
+    background-color: red;
+}
