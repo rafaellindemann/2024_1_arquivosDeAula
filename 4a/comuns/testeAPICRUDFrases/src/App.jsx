@@ -11,7 +11,7 @@ const App = () => {
     // axios.get('https://frases.docapi.dev/frase')
     axios.get('https://frases.docapi.dev/frase/obter')
       .then(response => {
-        setFrases(response.data);
+        setFrases(response.data.resposta);
       })
       .catch(error => {
         console.error('Houve um erro ao buscar as frases!', error);
@@ -105,8 +105,9 @@ const App = () => {
       <div>
         <h2>Frases</h2>
         <ul>
-          {!!frases.length && frases.map(frase => (
-            <li key={frase.id}>
+          {!!frases.length && frases.map((frase, index) => (
+            // <li key={index}>
+            <li key={frase._id}>
               {frase.frase} - {frase.nomeAutor}
               <button onClick={() => handleDelete(frase.id)}>Deletar</button>
             </li>
