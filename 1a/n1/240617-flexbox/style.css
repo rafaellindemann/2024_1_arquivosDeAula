@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    /* muda a cor de fundo do container */
+    background-color: #444444;
+    /* Configura a altura do container para 100% da altura visível */
+    height: 100vh;
+    width: 100vw;/* Configura a largura do container para 100% da largura visível */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid #0fffff;
+    /* margin-bottom: 5px; */
+    width: 150px;
+    height: 150px;
+}
+
+#card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
