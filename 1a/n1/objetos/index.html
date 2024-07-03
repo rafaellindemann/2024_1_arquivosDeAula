@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Produtos</h1>
+        <form id="productForm">
+            <div class="form-group">
+                <label for="productName">Nome do Produto:</label>
+                <input type="text" id="productName" name="productName" required>
+            </div>
+            <div class="form-group">
+                <label for="productDescription">Descrição:</label>
+                <input type="text" id="productDescription" name="productDescription" required>
+            </div>
+            <div class="form-group">
+                <label for="productPrice">Valor:</label>
+                <input type="number" id="productPrice" name="productPrice" required>
+            </div>
+            <div class="button-group">
+                <button type="button" id="createButton" onclick="cadastrar()">Cadastrar</button>
+                <button type="button" id="readButton" onclick="pesquisar()">Pesquisar</button>
+                <button type="button" id="updateButton" onclick="editar()">Editar</button>
+                <button type="button" id="deleteButton" onclick="deletar()">Deletar</button>
+                <button type="button" id="deleteButton" onclick="mostrarTodos()">Todos</button>
+                <button type="button" id="deleteButton" onclick="fakes()">Fakes</button>
+            </div>
+        </form>
+        <div id="painel"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
