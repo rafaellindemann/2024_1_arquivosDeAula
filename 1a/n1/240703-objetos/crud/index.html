@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD de Produtos</h1>
+        <div class="input-group">
+            <label for="productName">Nome do Produto</label>
+            <input type="text" id="productName" name="productName">
+        </div>
+        <div class="input-group">
+            <label for="productDescription">Descrição do Produto</label>
+            <input type="text" id="productDescription" name="productDescription">
+        </div>
+        <div class="input-group">
+            <label for="productPrice">Valor do Produto</label>
+            <input type="number" id="productPrice" name="productPrice">
+        </div>
+        <div class="buttons">
+            <button id="createButton" onclick="cadastrar()">Cadastrar</button>
+            <button id="readButton" onclick="pesquisar()">Pesquisar</button>
+            <button id="updateButton">Editar</button>
+            <button id="deleteButton">Deletar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

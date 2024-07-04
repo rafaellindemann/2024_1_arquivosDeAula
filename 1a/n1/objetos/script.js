@@ -11,7 +11,7 @@ function cadastrar(){
     let produto = {
         nome: nome.value,
         descricao: descricao.value,
-        preco: preco.value
+        preco: Number(preco.value)
     }
 
     produtos.push(produto)
