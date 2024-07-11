@@ -38,6 +38,8 @@ h1 {
 .buttons {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .buttons button {
     padding: 10px 15px;

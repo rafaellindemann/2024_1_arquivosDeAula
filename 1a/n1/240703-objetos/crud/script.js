@@ -3,7 +3,7 @@ let nome = document.getElementById('productName')
 let descricao = document.getElementById('productDescription')
 let preco = document.getElementById('productPrice')
 
-let produtos = []
+let produtos = JSON.parse(localStorage.getItem('produtos')) || []
 let encontrado = -1
 
 function cadastrar(){
@@ -16,6 +16,8 @@ function cadastrar(){
     console.log(produtos);
 
     limparFormulario()
+
+    localStorage.setItem('produtos', JSON.stringify(produtos))
 }
 
 function limparFormulario(){
@@ -73,6 +75,7 @@ function gerarFakes(){
 
     
     console.log(produtos);
+    localStorage.setItem('produtos', JSON.stringify(produtos))
 
 }
 
@@ -83,6 +86,7 @@ function salvar(){
 
     limparFormulario()
     alert("Produto alterado com baita sucesso")
+    localStorage.setItem('produtos', JSON.stringify(produtos))
 }
 
 function deletar(){
@@ -92,8 +96,10 @@ function deletar(){
         limparFormulario()
         alert("Produto removido pra nunca mais")
         encontrado = -1
+        localStorage.setItem('produtos', JSON.stringify(produtos))
     }else{
         alert('Epaaaaa, pesquisa aí primeiro')
     }
+
 }
 
