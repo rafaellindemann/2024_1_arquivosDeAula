@@ -6,3 +6,4 @@ function trocarImagem(){
     document.getElementById("imgPerfil").setAttribute('src', url)
 }
 
+
