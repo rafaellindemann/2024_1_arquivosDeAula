@@ -6,6 +6,12 @@
      gap: 25px;
 }
 
+input{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+
 img{
     border: 2px solid black;
     border-radius: 20px;
