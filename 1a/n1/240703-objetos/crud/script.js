@@ -31,7 +31,7 @@ function pesquisar(){
     let pesquisa = nome.value
     for(i=0;i<produtos.length;i++){
         if(produtos[i].nome == pesquisa){
-            // console.log(produtos[i])
+            console.log(produtos[i])
             descricao.value = produtos[i].descricao
             preco.value = produtos[i].preco
             encontrado = i

@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  /* gap: 1em; */
+}
+
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -18,13 +28,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.icons{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  /* gap: 1em; */
-}
+
 
 @keyframes logo-spin {
   from {

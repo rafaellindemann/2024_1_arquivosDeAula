@@ -11,7 +11,6 @@ function Body(){
       <p>Para participar do sorteio divulgue nossa data de inauguração nas suas redes sociais e marque o @farmarcia</p>
       <p>Quanto mais marcações em mais redes, mais chances. Pode botar no insta, no face, no x, pode botar até no koo...</p>
       <Data dia={15} mes='Março' ano={2024}/>
-
     </div>
   );
 }
