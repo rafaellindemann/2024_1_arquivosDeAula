@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /**
  * PASSO A PASSO PARA CRIAR UM CONTEXTO
  * 
@@ -28,6 +29,10 @@ export const UsuariosContextProvider = ({children}) => {
     {
       nome: "Mano Juca",
       email: "mj-vidaloka@email.com"
+    },
+    {
+      nome: "Gill Bates",
+      email: "gill@sicromoft.com"
     }
   ])
 
@@ -39,3 +44,4 @@ export const UsuariosContextProvider = ({children}) => {
     </UsuariosContext.Provider>
   )
 }
+ 

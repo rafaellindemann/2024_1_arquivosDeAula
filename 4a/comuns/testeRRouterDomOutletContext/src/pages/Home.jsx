@@ -1,5 +1,5 @@
-import { useContext } from "react";
 import './Home.css';
+import { useContext } from "react";
 import { UsuariosContext } from "../context/GlobalContext";
 function Home() {
 
