@@ -84,3 +84,18 @@ button:nth-child(4) {
 button:nth-child(4):hover {
     background-color: #d43f3a;
 }
+button:nth-child(5) {
+    background-color: #00534f;
+}
+
+button:nth-child(5):hover {
+    background-color: #003f3a;
+}
+
+button:nth-child(6) {
+    background-color: #d95300;
+}
+
+button:nth-child(6):hover {
+    background-color: #d43f00;
+}
